@@ -3,7 +3,7 @@
 - [Prerequisites](#prerequisites)
 - [Development environment](#development-environment)
 - [Languages and libraries](#languages-and-libraries)
-- [Common problems](#common-problems-and-troubleshooting)
+- [Common problems and troubleshooting](#common-problems-and-troubleshooting)
 - [Time management and deadlines](#time-management-and-deadlines)
 
 ## Prerequisites
