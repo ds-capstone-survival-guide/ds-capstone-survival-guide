@@ -19,6 +19,8 @@
 
 ## Common problems and troubleshooting
 
+- if you ask a question regarding issues with your code, it is wise to provide the [SSCCE](http://sscce.org/) and all the additional information which can be useful (error messages, warnings, `sessionInfo`) to diagnose the problem. Describing [what have you tried](whathaveyoutried.com) is always welcome.
+
 ## Time management and deadlines
 
 ## Useful resources
