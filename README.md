@@ -1,5 +1,9 @@
 # DS Capstone Survival Guide
 
+- [Prerequisites](#prerequisites)
+- [Development environment](#development-environment)
+- [Time management and deadlines](#time-management-and-deadlines)
+
 ## Prerequisites
 
 - while it is not required basic familiarity with Unix command-line tools can be extremly useful. If names like [`grep`](http://en.wikipedia.org/wiki/Grep), [`sed`](http://en.wikipedia.org/wiki/Sed) or [`wc`](http://en.wikipedia.org/wiki/Wc_%28Unix%29) doesn't mean anything to you it is a good idea to change that.
