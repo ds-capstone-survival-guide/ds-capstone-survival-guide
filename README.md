@@ -22,3 +22,8 @@
 ## Time management and deadlines
 
 ## Useful resources
+
+- Discussion lists and QA sites.
+  * [ShinyApps Users Group](https://groups.google.com/forum/#!forum/shinyapps-users) - A great place to ask a question about the ShinyApps platform. 
+  * [Shiny Users Group](https://groups.google.com/forum/#!forum/shiny-discuss). 
+  * [Stack Overflow](http://stackoverflow.com/)
