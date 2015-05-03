@@ -5,6 +5,7 @@
 - [Languages and libraries](#languages-and-libraries)
 - [Common problems and troubleshooting](#common-problems-and-troubleshooting)
 - [Time management and deadlines](#time-management-and-deadlines)
+- [Useful resources](#useful-resources)
 
 ## Prerequisites
 
@@ -19,3 +20,5 @@
 ## Common problems and troubleshooting
 
 ## Time management and deadlines
+
+## Useful resources
