@@ -1,1 +1,1 @@
-# ds-capstone-survival-guide
+# DS Capstone Survival Guide
