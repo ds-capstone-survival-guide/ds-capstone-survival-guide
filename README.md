@@ -32,3 +32,5 @@
 - MOOCs
  * [Natural Language Processing, Columbia University](https://www.coursera.org/course/nlangp).
  * [The Analytics Edge,  MITx](https://www.edx.org/course/analytics-edge-mitx-15-071x-0) - Unit 5: Text Analytics in particular.
+- Other
+ * [awesome-R](https://github.com/qinwf/awesome-R) - A curated list of awesome R frameworks, packages and software.
