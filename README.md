@@ -24,11 +24,11 @@
 ## Useful resources
 
 - Discussion lists and QA sites.
-  * [ShinyApps Users Group](https://groups.google.com/forum/#!forum/shinyapps-users) - A great place to ask a question about the ShinyApps platform. 
-  * [Shiny Users Group](https://groups.google.com/forum/#!forum/shiny-discuss). 
-  * [Stack Overflow](http://stackoverflow.com/)
+  * [ShinyApps Users Group](https://groups.google.com/forum/#!forum/shinyapps-users) - A great place to ask a question about the ShinyApps platform.
+  * [Shiny Users Group](https://groups.google.com/forum/#!forum/shiny-discuss).
+  * [Stack Overflow](http://stackoverflow.com/).
 - Books
-  * [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do)
+  * [Data Science at the Command Line](http://shop.oreilly.com/product/0636920032823.do).
 - MOOCs
- * [Natural Language Processing, Columbia University](https://www.coursera.org/course/nlangp) 
+ * [Natural Language Processing, Columbia University](https://www.coursera.org/course/nlangp).
  * [The Analytics Edge,  MITx](https://www.edx.org/course/analytics-edge-mitx-15-071x-0) - Unit 5: Text Analytics in particular.
