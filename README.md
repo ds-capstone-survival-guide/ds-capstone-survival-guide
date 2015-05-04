@@ -18,6 +18,8 @@
 
 ## Languages and libraries
 
+- some libraries are more equal than others. Even if some library looks like a great fit it doesn't mean it can handle amount of data you have to process.
+
 ## Common problems and troubleshooting
 
 - if you don't know where to start or you are stuck be sure to check fora. To quote [@LaurentFranckx](https://github.com/LaurentFranckx) _they can make the difference between passing and failing_.
