@@ -30,6 +30,8 @@
 
 ## Time management and deadlines
 
+- don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
+
 ## Useful resources
 
 - Discussion lists and QA sites.
