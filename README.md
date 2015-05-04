@@ -34,6 +34,7 @@
 - keep shiny application directory clean. Uploading things like saved R workspace may have unexpected results.
 - double check submitted links especially if you use Rich Text Editor. What you see is not always what you get.
 - locale matters. `en_US.UTF-8` is usually the best choice.
+- [handle exceptions](http://adv-r.had.co.nz/Exceptions-Debugging.html) and prepare fallback strategy. If there is an easy way to break your application you can be sure reviewers will find it.
 
 ## Time management and deadlines
 
