@@ -33,6 +33,7 @@
 - if you don't understand [R memory management](http://adv-r.had.co.nz/memory.html) you will most likely fail. You can use common monitoring tools, like [htop](http://en.wikipedia.org/wiki/Htop) or more advanced software like [Munin](http://munin-monitoring.org/) to monitor your application. If you see unexpected memory spikes use [lineprof](https://github.com/hadley/lineprof) to find the source of the problem.
 - keep shiny application directory clean. Uploading things like saved R workspace may have unexpected results.
 - double check submitted links especially if you use Rich Text Editor. What you see is not always what you get.
+- locale matters. `en_US.UTF-8` is usually the best choice.
 
 ## Time management and deadlines
 
