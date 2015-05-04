@@ -44,6 +44,7 @@
 ## General remarks
 - be civil and try to have fun.
 - word clouds are evil and therefore should be forbidden.
+- using typical NLP pipelines (tokenization -> punctuation removal -> stop words removal -> stemming) is not the best approach. It will bite you sooner or later.
 
 ## Useful resources
 
