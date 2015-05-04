@@ -19,6 +19,7 @@
 ## Languages and libraries
 
 - some libraries are more equal than others. Even if some library looks like a great fit it doesn't mean it can handle amount of data you have to process.
+- JVM based libraries (RWeka, OpenNLP) can provide some very useful functions but it comes at a price. In a restricted environment like ShinyApps it can be deal breaker.
 
 ## Common problems and troubleshooting
 
