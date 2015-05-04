@@ -6,6 +6,7 @@
 - [Common problems and troubleshooting](#common-problems-and-troubleshooting)
 - [Time management and deadlines](#time-management-and-deadlines)
 - [Useful resources](#useful-resources)
+- [General remarks](#general-remarks)
 
 ## Prerequisites
 
@@ -34,6 +35,8 @@
 ## Time management and deadlines
 
 - don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
+
+## General remarks
 
 ## Useful resources
 
