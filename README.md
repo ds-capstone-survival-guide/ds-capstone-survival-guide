@@ -43,6 +43,7 @@
 
 ## General remarks
 - be civil and try to have fun.
+- word clouds are evil and therefore should be forbidden.
 
 ## Useful resources
 
