@@ -37,6 +37,7 @@
 - don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
 
 ## General remarks
+- Be civil and try to have fun.
 
 ## Useful resources
 
