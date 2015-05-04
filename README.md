@@ -22,7 +22,7 @@
 ## Languages and libraries
 
 - some libraries are more equal than others. Even if some library looks like a great fit it doesn't mean it can handle amount of data you have to process.
-- JVM based libraries (RWeka, OpenNLP) can provide some very useful functions but it comes at a price. In a restricted environment like ShinyApps it can be deal breaker.
+- JVM based libraries (RWeka, OpenNLP) can provide some very useful functions but it comes at a price. In a restricted environment like ShinyApps it can be a deal breaker.
 
 ## Common problems and troubleshooting
 
@@ -42,7 +42,7 @@
 - grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town. 
 
 ## General remarks
-- Be civil and try to have fun.
+- be civil and try to have fun.
 
 ## Useful resources
 
