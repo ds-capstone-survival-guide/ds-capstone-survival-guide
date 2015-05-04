@@ -19,6 +19,7 @@
 
 ## Common problems and troubleshooting
 
+- if you don't know where to start or you are stuck be sure to check fora. To quote [@LaurentFranckx](https://github.com/LaurentFranckx) _they can make the difference between passing and failing_.
 - if you ask a question regarding issues with your code, it is wise to provide the [SSCCE](http://sscce.org/) and all the additional information which can be useful (error messages, warnings, `sessionInfo`) to diagnose the problem. Describing [what have you tried](whathaveyoutried.com) is always welcome.
 
 ## Time management and deadlines
