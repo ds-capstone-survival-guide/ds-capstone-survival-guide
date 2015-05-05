@@ -5,8 +5,8 @@
 - [Use of Unix command-line tools](#use-of-unix-command-line-tools)
 - [Languages and libraries](#languages-and-libraries)
 - [Common problems and troubleshooting](#common-problems-and-troubleshooting)
-- [Time management and deadlines](#time-management-and-deadlines)
 - [ShinyApps limits](#shinyapps-limits)
+- [Time management and deadlines](#time-management-and-deadlines)
 - [Useful resources](#useful-resources)
 - [General remarks](#general-remarks)
 
