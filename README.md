@@ -13,6 +13,12 @@
 - while it is not required basic familiarity with Unix command-line tools can be extremly useful. If names like [`grep`](http://en.wikipedia.org/wiki/Grep), [`sed`](http://en.wikipedia.org/wiki/Sed) or [`wc`](http://en.wikipedia.org/wiki/Wc_%28Unix%29) doesn't mean anything to you it is a good idea to change that.
 - you don't have to be an expert in [Natural Language Processing](http://en.wikipedia.org/wiki/Natural_language_processing) but understanding basic concepts and some experience with analyzing unstructured data will give you a serious advantage. If you're familiar with terms like [tokenization](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29), [n-gram](http://en.wikipedia.org/wiki/N-gram) or [Markov chain](http://en.wikipedia.org/wiki/Markov_chain) you're good to go.
 
+## Use of Unix/linux in the project
+- most operations involving identifying 'unique' words or n-grams, and counting them, can take hours in R and just a few seconds/minuts in Unix/Linux
+- if you work on a Windows machine, keep in mind that you can use Git Bash for Unix/Linux command lines
+- using Linux/Unix does not mean you have to give up the ideals of reproducible research: the R function system() allows you to call OS commands; if you have a Windows machine, you can solve this problem by using cloud services such as Domino who will accept Linux/Unix command lines
+
+
 ## Development environment
 
 - keep your development environment as close as it is possible to the target platform. At this point shinyapps.io is using [Ubuntu 12.04](https://wiki.ubuntu.com/PrecisePangolin) with `en_US.UTF-8` locale. You can create similar environment using tools like [Docker](https://www.docker.com/), [Vagrant](https://www.vagrantup.com/) or [VirtualBox](http://virtualbox.org/).
