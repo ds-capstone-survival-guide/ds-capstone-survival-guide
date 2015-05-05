@@ -7,6 +7,7 @@
 - [Common problems and troubleshooting](#common-problems-and-troubleshooting)
 - [ShinyApps limits](#shinyapps-limits)
 - [Time management and deadlines](#time-management-and-deadlines)
+- [Slow Internet Connections](#slow-internet-connections)
 - [Useful resources](#useful-resources)
 - [General remarks](#general-remarks)
 
@@ -55,7 +56,9 @@
 ## Time management and deadlines
 
 - Don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
-- Grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town. 
+- Grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town.
+
+## Slow Internet Connections
 
 ## General remarks
 - Be civil and try to have fun.
