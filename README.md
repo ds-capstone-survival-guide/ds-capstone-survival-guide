@@ -59,6 +59,7 @@
 - MOOCs
  * [Natural Language Processing, Columbia University](https://www.coursera.org/course/nlangp).
  * [The Analytics Edge,  MITx](https://www.edx.org/course/analytics-edge-mitx-15-071x-0) - Unit 5: Text Analytics in particular.
+ * [Text Retrieval and Search Engines, University of Illinois](https://www.coursera.org/course/textretrieval).
 - Other
  * [awesome-R](https://github.com/qinwf/awesome-R) - A curated list of awesome R frameworks, packages and software.
  * [How to make a great R reproducible example?](http://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example)
