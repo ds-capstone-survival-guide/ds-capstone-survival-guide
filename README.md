@@ -30,6 +30,7 @@
 - some libraries are more equal than others. Even if some library looks like a great fit it doesn't mean it can handle amount of data you have to process.
 - JVM based libraries (RWeka, OpenNLP) can provide some very useful functions but it comes at a price. In a restricted environment like ShinyApps it can be a deal breaker.
 - some libraries which had beeen proven to be useful: [`stringi`](http://www.rexamine.com/resources/stringi/),  [Hadleyverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/) tools ([`data.table`](http://cran.r-project.org/web/packages/data.table/index.html) in particular), [`hash`](http://cran.r-project.org/web/packages/hash/index.html).
+- most likely more trouble than it's worth: [`tm`](http://cran.r-project.org/web/packages/tm/index.html), [`RWeka`](http://cran.r-project.org/web/packages/RWeka/index.html). 
 
 ## Common problems and troubleshooting
 
