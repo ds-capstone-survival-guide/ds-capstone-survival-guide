@@ -16,7 +16,7 @@
 
 ## Use of Unix command-line tools
 - most operations involving identifying 'unique' words or n-grams, and counting them, can take hours in R and just a few seconds/minuts in Unix/Linux.
-- if you work on a Windows machine, keep in mind that you can use Git Bash for Unix/Linux command lines.
+- if you work on a Windows machine, keep in mind that you can use Git Bash for Unix/Linux command-line tools.
 - using Linux/Unix does not mean you have to give up the ideals of reproducible research: the R function system() allows you to call OS commands; if you have a Windows machine, you can solve this problem by using cloud services such as Domino which accept Linux/Unix commands.
 
 ## Development environment
