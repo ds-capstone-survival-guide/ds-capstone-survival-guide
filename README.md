@@ -1,8 +1,8 @@
 # DS Capstone Survival Guide
 
 - [Prerequisites](#prerequisites)
-- [Use of Unix command-line tools](#use-of-unix-command-line-tools)
 - [Development environment](#development-environment)
+- [Use of Unix command-line tools](#use-of-unix-command-line-tools)
 - [Languages and libraries](#languages-and-libraries)
 - [Common problems and troubleshooting](#common-problems-and-troubleshooting)
 - [Time management and deadlines](#time-management-and-deadlines)
@@ -16,16 +16,16 @@
 - You don't have to be an expert in [Natural Language Processing](http://en.wikipedia.org/wiki/Natural_language_processing) but understanding basic concepts and some experience with analyzing unstructured data will give you a serious advantage. If you're familiar with terms like [tokenization](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29), [n-gram](http://en.wikipedia.org/wiki/N-gram) or [Markov chain](http://en.wikipedia.org/wiki/Markov_chain) you're good to go.
 - You don't need a computer science degree to finish this course, but it is useful to understand basic data structures and algorithms. If you are familiar with [Big O notation](http://en.wikipedia.org/wiki/Big_O_notation) and you can analyze time and memory complexity of the operations like `for (i in 1:n) { foo <- c(i, foo) }` or `which(foo == round(runif(1, 1, n)))` you should be fine.
 
-## Use of Unix command-line tools
-- Most operations involving identifying 'unique' words or n-grams, and counting them, can take hours in R and just a few seconds/minuts using Unix/Linux pipes.
-- If you work on a Windows machine, keep in mind that you can use Git Bash for Unix/Linux command-line tools.
-- Using Linux/Unix does not mean you have to give up the ideals of reproducible research: the R function system() allows you to call OS commands; if you have a Windows machine, you can solve this problem by using cloud services such as Domino which accept Linux/Unix commands.
-
 ## Development environment
 
 - Keep your development environment as close as it is possible to the target platform. At this point shinyapps.io is using [Ubuntu 12.04](https://wiki.ubuntu.com/PrecisePangolin) with `en_US.UTF-8` locale. You can create similar environment using tools like [Docker](https://www.docker.com/), [Vagrant](https://www.vagrantup.com/) or [VirtualBox](http://virtualbox.org/).
 - Create a reproducible R environment ([Packrat](https://rstudio.github.io/packrat/) is your friend) for your project. Dealing with broken dependencies is a painful and time-consuming process.
 - If you execute memory/CPU intensive task try to avoid RStudio.
+
+## Use of Unix command-line tools
+- Most operations involving identifying 'unique' words or n-grams, and counting them, can take hours in R and just a few seconds/minuts using Unix/Linux pipes.
+- If you work on a Windows machine, keep in mind that you can use Git Bash for Unix/Linux command-line tools.
+- Using Linux/Unix does not mean you have to give up the ideals of reproducible research: the R function system() allows you to call OS commands; if you have a Windows machine, you can solve this problem by using cloud services such as Domino which accept Linux/Unix commands.
 
 ## Languages and libraries
 
