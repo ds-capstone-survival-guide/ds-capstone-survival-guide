@@ -12,54 +12,54 @@
 
 ## Prerequisites
 
-- while it is not required basic familiarity with Unix command-line tools can be extremly useful. If names like [`grep`](http://en.wikipedia.org/wiki/Grep), [`sed`](http://en.wikipedia.org/wiki/Sed) or [`wc`](http://en.wikipedia.org/wiki/Wc_%28Unix%29) doesn't mean anything to you it is a good idea to change that.
-- you don't have to be an expert in [Natural Language Processing](http://en.wikipedia.org/wiki/Natural_language_processing) but understanding basic concepts and some experience with analyzing unstructured data will give you a serious advantage. If you're familiar with terms like [tokenization](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29), [n-gram](http://en.wikipedia.org/wiki/N-gram) or [Markov chain](http://en.wikipedia.org/wiki/Markov_chain) you're good to go.
-- you don't need a computer science degree to finish this course, but it is useful to understand basic data structures and algorithms. If you are familiar with [Big O notation](http://en.wikipedia.org/wiki/Big_O_notation) and you can analyze time and memory complexity of the operations like `for (i in 1:n) { foo <- c(i, foo) }` or `which(foo == round(runif(1, 1, n)))` you should be fine.
+- While it is not required basic familiarity with Unix command-line tools can be extremly useful. If names like [`grep`](http://en.wikipedia.org/wiki/Grep), [`sed`](http://en.wikipedia.org/wiki/Sed) or [`wc`](http://en.wikipedia.org/wiki/Wc_%28Unix%29) doesn't mean anything to you it is a good idea to change that.
+- You don't have to be an expert in [Natural Language Processing](http://en.wikipedia.org/wiki/Natural_language_processing) but understanding basic concepts and some experience with analyzing unstructured data will give you a serious advantage. If you're familiar with terms like [tokenization](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29), [n-gram](http://en.wikipedia.org/wiki/N-gram) or [Markov chain](http://en.wikipedia.org/wiki/Markov_chain) you're good to go.
+- You don't need a computer science degree to finish this course, but it is useful to understand basic data structures and algorithms. If you are familiar with [Big O notation](http://en.wikipedia.org/wiki/Big_O_notation) and you can analyze time and memory complexity of the operations like `for (i in 1:n) { foo <- c(i, foo) }` or `which(foo == round(runif(1, 1, n)))` you should be fine.
 
 ## Use of Unix command-line tools
-- most operations involving identifying 'unique' words or n-grams, and counting them, can take hours in R and just a few seconds/minuts using Unix/Linux pipes.
-- if you work on a Windows machine, keep in mind that you can use Git Bash for Unix/Linux command-line tools.
-- using Linux/Unix does not mean you have to give up the ideals of reproducible research: the R function system() allows you to call OS commands; if you have a Windows machine, you can solve this problem by using cloud services such as Domino which accept Linux/Unix commands.
+- Most operations involving identifying 'unique' words or n-grams, and counting them, can take hours in R and just a few seconds/minuts using Unix/Linux pipes.
+- If you work on a Windows machine, keep in mind that you can use Git Bash for Unix/Linux command-line tools.
+- Using Linux/Unix does not mean you have to give up the ideals of reproducible research: the R function system() allows you to call OS commands; if you have a Windows machine, you can solve this problem by using cloud services such as Domino which accept Linux/Unix commands.
 
 ## Development environment
 
-- keep your development environment as close as it is possible to the target platform. At this point shinyapps.io is using [Ubuntu 12.04](https://wiki.ubuntu.com/PrecisePangolin) with `en_US.UTF-8` locale. You can create similar environment using tools like [Docker](https://www.docker.com/), [Vagrant](https://www.vagrantup.com/) or [VirtualBox](http://virtualbox.org/).
-- create a reproducible R environment ([Packrat](https://rstudio.github.io/packrat/) is your friend) for your project. Dealing with broken dependencies is a painful and time-consuming process.
-- if you execute memory/CPU intensive task try to avoid RStudio.
+- Keep your development environment as close as it is possible to the target platform. At this point shinyapps.io is using [Ubuntu 12.04](https://wiki.ubuntu.com/PrecisePangolin) with `en_US.UTF-8` locale. You can create similar environment using tools like [Docker](https://www.docker.com/), [Vagrant](https://www.vagrantup.com/) or [VirtualBox](http://virtualbox.org/).
+- Create a reproducible R environment ([Packrat](https://rstudio.github.io/packrat/) is your friend) for your project. Dealing with broken dependencies is a painful and time-consuming process.
+- If you execute memory/CPU intensive task try to avoid RStudio.
 
 ## Languages and libraries
 
-- some libraries are more equal than others. Even if some library looks like a great fit it doesn't mean it can handle amount of data you have to process.
+- Some libraries are more equal than others. Even if some library looks like a great fit it doesn't mean it can handle amount of data you have to process.
 - JVM based libraries (RWeka, OpenNLP) can provide some very useful functions but it comes at a price. In a restricted environment like ShinyApps it can be a deal breaker.
-- some libraries which had beeen proven to be useful: [`stringi`](http://www.rexamine.com/resources/stringi/),  [Hadleyverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/) tools ([`data.table`](http://cran.r-project.org/web/packages/data.table/index.html) in particular), [`hash`](http://cran.r-project.org/web/packages/hash/index.html).
-- most likely more trouble than it's worth: [`tm`](http://cran.r-project.org/web/packages/tm/index.html), [`RWeka`](http://cran.r-project.org/web/packages/RWeka/index.html). These are good packages but simply not well suited to Capstone specific workload.
+- Some libraries which had beeen proven to be useful: [`stringi`](http://www.rexamine.com/resources/stringi/),  [Hadleyverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/) tools ([`data.table`](http://cran.r-project.org/web/packages/data.table/index.html) in particular), [`hash`](http://cran.r-project.org/web/packages/hash/index.html).
+- Most likely more trouble than it's worth: [`tm`](http://cran.r-project.org/web/packages/tm/index.html), [`RWeka`](http://cran.r-project.org/web/packages/RWeka/index.html). These are good packages but simply not well suited to Capstone specific workload.
 
 ## Common problems and troubleshooting
 
-- if you don't know where to start or you are stuck be sure to check fora. To quote [@LaurentFranckx](https://github.com/LaurentFranckx) _they can make the difference between passing and failing_.
-- if you ask a question regarding issues with your code, it is wise to provide the [SSCCE](http://sscce.org/) and all the additional information which can be useful (error messages, warnings, `sessionInfo`) to diagnose the problem. Describing [what have you tried](http://whathaveyoutried.com) is always welcome.
-- contrary to popular belief ShinyApps is not a devious trap created only to make your application fail but it is not a forgiving platform either. Even if your application works fine on your own hardware with lots of spare resources it doesn't mean it will behave as well after deployment. Take away message here is [deploy early and often](http://programmer.97things.oreilly.com/wiki/index.php/Deploy_Early_and_Often).
-- if your problem concerns a deployed application be sure to provide [an application log](http://shiny.rstudio.com/articles/shinyapps.html#application-logging) and related errors visible in a browser console ([Firefox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console), [Chrome](https://developer.chrome.com/devtools/docs/console)). You can use [logging](http://cran.r-project.org/web/packages/logging/index.html) package to create custom log messages.
-- if you don't understand [R memory management](http://adv-r.had.co.nz/memory.html) you will most likely fail. You can use common monitoring tools, like [htop](http://en.wikipedia.org/wiki/Htop) or more advanced software like [Munin](http://munin-monitoring.org/) to monitor your application. If you see unexpected memory spikes use [lineprof](https://github.com/hadley/lineprof) to find the source of the problem.
-- keep shiny application directory clean. Uploading things like saved R workspace may have unexpected results.
-- double check submitted links especially if you use Rich Text Editor. What you see is not always what you get.
+- If you don't know where to start or you are stuck be sure to check fora. To quote [@LaurentFranckx](https://github.com/LaurentFranckx) _they can make the difference between passing and failing_.
+- If you ask a question regarding issues with your code, it is wise to provide the [SSCCE](http://sscce.org/) and all the additional information which can be useful (error messages, warnings, `sessionInfo`) to diagnose the problem. Describing [what have you tried](http://whathaveyoutried.com) is always welcome.
+- Contrary to popular belief ShinyApps is not a devious trap created only to make your application fail but it is not a forgiving platform either. Even if your application works fine on your own hardware with lots of spare resources it doesn't mean it will behave as well after deployment. Take away message here is [deploy early and often](http://programmer.97things.oreilly.com/wiki/index.php/Deploy_Early_and_Often).
+- If your problem concerns a deployed application be sure to provide [an application log](http://shiny.rstudio.com/articles/shinyapps.html#application-logging) and related errors visible in a browser console ([Firefox](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console), [Chrome](https://developer.chrome.com/devtools/docs/console)). You can use [logging](http://cran.r-project.org/web/packages/logging/index.html) package to create custom log messages.
+- If you don't understand [R memory management](http://adv-r.had.co.nz/memory.html) you will most likely fail. You can use common monitoring tools, like [htop](http://en.wikipedia.org/wiki/Htop) or more advanced software like [Munin](http://munin-monitoring.org/) to monitor your application. If you see unexpected memory spikes use [lineprof](https://github.com/hadley/lineprof) to find the source of the problem.
+- Keep shiny application directory clean. Uploading things like saved R workspace may have unexpected results.
+- Double check submitted links especially if you use Rich Text Editor. What you see is not always what you get.
 - [locale](http://stat.ethz.ch/R-manual/R-devel/library/base/html/locales.html) matters. `en_US.UTF-8` is usually the best choice.
-- input file encoding matters as well. Be sure to understand how to use encoding parameter when you create [connections](https://stat.ethz.ch/R-manual/R-devel/library/base/html/connections.html) or use [`readLines`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/readLines.html). If you still encounter problems (like embeded nulls) you can always [read and encode raw data](https://github.com/zero323/r-snippets/blob/master/R/read_and_reencode.R).
-- [handle exceptions](http://adv-r.had.co.nz/Exceptions-Debugging.html) and prepare fallback strategy. If there is an easy way to break your application you can be sure reviewers will find it.
+- Input file encoding matters as well. Be sure to understand how to use encoding parameter when you create [connections](https://stat.ethz.ch/R-manual/R-devel/library/base/html/connections.html) or use [`readLines`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/readLines.html). If you still encounter problems (like embeded nulls) you can always [read and encode raw data](https://github.com/zero323/r-snippets/blob/master/R/read_and_reencode.R).
+- [Handle exceptions](http://adv-r.had.co.nz/Exceptions-Debugging.html) and prepare fallback strategy. If there is an easy way to break your application you can be sure reviewers will find it.
 
 ## ShinyApps limits
-- manage shiny hours carefully. Archive any apps you don't need. Set the Instance Idle Timeout for a short period, particularly during your testing. Stop the app in the shiny console when you finish a testing session.
-- size of an application deployed using `deployApp` is limited to [100MB](http://www.rstudio.com/faq-items/load-data-apps-shinyapps-io/).
+- Manage shiny hours carefully. Archive any apps you don't need. Set the Instance Idle Timeout for a short period, particularly during your testing. Stop the app in the shiny console when you finish a testing session.
+- Size of an application deployed using `deployApp` is limited to [100MB](http://www.rstudio.com/faq-items/load-data-apps-shinyapps-io/).
 
 ## Time management and deadlines
 
-- don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
-- grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town. 
+- Don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
+- Grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town. 
 
 ## General remarks
-- be civil and try to have fun.
-- word clouds are evil and therefore should be forbidden.
-- using typical NLP pipelines (tokenization -> punctuation removal -> stop words removal -> stemming) is not the best approach. It will bite you sooner or later.
+- Be civil and try to have fun.
+- Word clouds are evil and therefore should be forbidden.
+- Using typical NLP pipelines (tokenization -> punctuation removal -> stop words removal -> stemming) is not the best approach. It will bite you sooner or later.
 
 ## Useful resources
 
