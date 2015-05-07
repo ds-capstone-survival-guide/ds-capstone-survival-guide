@@ -7,7 +7,7 @@
 - [Common problems and troubleshooting](#common-problems-and-troubleshooting)
 - [ShinyApps limits](#shinyapps-limits)
 - [Time management and deadlines](#time-management-and-deadlines)
-- [Slow internet connections](#slow-internet-connections)
+- [Slow or unreliable internet connections](#slow-or-unreliable-internet-connections)
 - [Useful resources](#useful-resources)
 - [General remarks](#general-remarks)
 
@@ -61,9 +61,10 @@
 - Don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
 - Grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town.
 
-## Slow internet connections
+## Slow or unreliable internet connections
 
 - If you have a slow internet connection redeploying your app can be a time-consuming process. Since your data most likely won't change as often as your code you can create a data only package, keep it on GitHub and let Shinyapps [handle dependencies](http://shiny.rstudio.com/articles/shinyapps.html#package-dependencies). If you're not sure how to do it take a look at `devtools::create`, `devtools::use_data` and `devtools::install_github`. Be sure to check [working with large files](https://help.github.com/articles/working-with-large-files/) guide.
+- Seeing `Error in headers[["Content-Type"]] : subscript out of bounds` during deployment may suggest some kind of connection problem. If you're sure there is nothing wrong with your app please try again using different network.
 
 ## General remarks
 - Be civil and try to have fun.
