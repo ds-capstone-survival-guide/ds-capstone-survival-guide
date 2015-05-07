@@ -12,10 +12,12 @@
 - [General remarks](#general-remarks)
 
 ## Prerequisites
+*Some things you should know before you start.*
 
 - While it is not required basic familiarity with Unix command-line tools can be extremly useful. If names like [`grep`](http://en.wikipedia.org/wiki/Grep), [`sed`](http://en.wikipedia.org/wiki/Sed) or [`wc`](http://en.wikipedia.org/wiki/Wc_%28Unix%29) doesn't mean anything to you it is a good idea to change that.
 - You don't have to be an expert in [Natural Language Processing](http://en.wikipedia.org/wiki/Natural_language_processing) but understanding basic concepts and some experience with analyzing unstructured data will give you a serious advantage. If you're familiar with terms like [tokenization](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29), [n-gram](http://en.wikipedia.org/wiki/N-gram) or [Markov chain](http://en.wikipedia.org/wiki/Markov_chain) you're good to go.
 - You don't need a computer science degree to finish this course, but it is useful to understand basic data structures and algorithms. If you are familiar with [Big O notation](http://en.wikipedia.org/wiki/Big_O_notation) and you can analyze time and memory complexity of the operations like `for(i in 1:n) {foo <- c(i, foo)}` or `which(foo == round(runif(1, 1, n)))` you should be fine.
+- While most of the heavy-lifting can be handled by Shiny some practical knowledge of the front-end technologies can make your life much easier.
 
 ## Development environment
 
