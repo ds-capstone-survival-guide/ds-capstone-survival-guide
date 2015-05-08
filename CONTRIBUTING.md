@@ -7,5 +7,5 @@ Contributions are always welcome.
 - Check your spelling and grammar. Mine as well if you can.
 - Try to avoid trailing whitespaces.
 - If you want you can add yourself to an [authors list](https://github.com/zero323/ds-capstone-survival-guide/blob/master/AUTHORS).
-- Follow [the Coursera Honor Code](https://www.coursera.org/about/terms/honorcode).
+- Follow [the Coursera Honor Code](https://www.coursera.org/about/terms/honorcode). In particular avoid any references to the algorithm or implementation details.
 - Create a pull request. 
