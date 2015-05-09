@@ -51,6 +51,7 @@
 - Input file encoding matters as well. Be sure to understand how to use encoding parameter when you create [connections](https://stat.ethz.ch/R-manual/R-devel/library/base/html/connections.html) or use [`readLines`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/readLines.html). If you still encounter problems (like embeded nulls) you can always [read and encode raw data](https://github.com/zero323/r-snippets/blob/master/R/read_and_reencode.R).
 - [Handle exceptions](http://adv-r.had.co.nz/Exceptions-Debugging.html) and prepare fallback strategy. If there is an easy way to break your application you can be sure reviewers will find it.
 - Deploying application on ShinyApps requires a current version of the `shinyapps` package. If you see `shinyapps package out of date` simply repeat [installation procedure](https://github.com/rstudio/shinyapps/#installation).
+- Consider using `shiny::showReactLog` to track reactive dependencies.
 
 ## ShinyApps limits
 - Manage shiny hours carefully. Archive any apps you don't need. Set the Instance Idle Timeout for a short period, particularly during your testing. Stop the app in the shiny console when you finish a testing session.
