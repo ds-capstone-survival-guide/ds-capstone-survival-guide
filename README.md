@@ -64,7 +64,7 @@
 ## Slow or unreliable internet connections
 
 - If you have a slow internet connection redeploying your app can be a time-consuming process. Since your data most likely won't change as often as your code you can create a data only package, keep it on GitHub and let Shinyapps [handle dependencies](http://shiny.rstudio.com/articles/shinyapps.html#package-dependencies). If you're not sure how to do it take a look at `devtools::create`, `devtools::use_data` and `devtools::install_github`. Be sure to check [working with large files](https://help.github.com/articles/working-with-large-files/) guide.
-- Seeing `Error in headers[["Content-Type"]] : subscript out of bounds` during deployment may suggest some kind of connection problem. If you're sure there is nothing wrong with your app please try again using different network.
+- Seeing cryptic `Error in headers[["Content-Type"]] : subscript out of bounds` during deployment may suggest some kind of connection problem. If you're sure there is nothing wrong with your app please try again using different network.
 
 ## General remarks
 - Be civil and try to have fun.
