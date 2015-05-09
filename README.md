@@ -36,6 +36,7 @@
 - JVM based libraries (RWeka, OpenNLP) can provide some very useful functions but it comes at a price. In a restricted environment like ShinyApps it can be a deal breaker.
 - Some libraries which had beeen proven to be useful: [`stringi`](http://www.rexamine.com/resources/stringi/),  [Hadleyverse](http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/) tools ([`data.table`](http://cran.r-project.org/web/packages/data.table/index.html) in particular), [`hash`](http://cran.r-project.org/web/packages/hash/index.html).
 - Most likely more trouble than it's worth: [`tm`](http://cran.r-project.org/web/packages/tm/index.html), [`RWeka`](http://cran.r-project.org/web/packages/RWeka/index.html). These are good packages but simply not well suited to Capstone specific workload.
+- While you can use any tools you want to process input data and build your model the final project must be deployed on shinyapps.io. Running external code on ShinyApps is possible, but may violate [Terms of Use](http://www.rstudio.com/products/shiny-apps-terms-of-use/) and makes debugging even harder. Kepp that in mind before you decide to use your-favorite-language.
 
 ## Common problems and troubleshooting
 
