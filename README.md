@@ -75,6 +75,7 @@
 - Word clouds are evil and therefore should be forbidden.
 - Using typical NLP pipelines (tokenization -> punctuation removal -> stop words removal -> stemming) is not the best approach. It will bite you sooner or later.
 - Carefully review the Grading Rubrics.
+- Document and explain your design choices amd never assume that the reviewers are familiar with some proprietary product _x_.
 
 ## Useful resources
 
