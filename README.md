@@ -55,7 +55,7 @@
 
 ## ShinyApps limits
 - Manage shiny hours carefully. Archive any apps you don't need. Set the Instance Idle Timeout for a short period, particularly during your testing. Stop the app in the shiny console when you finish a testing session.
-- Size of an application deployed using `deployApp` is limited to [100MB](http://www.rstudio.com/faq-items/load-data-apps-shinyapps-io/).
+- Size of an application deployed using `deployApp` is limited to 1GB.
 - _Free tier is restricted to [medium size](http://shiny.rstudio.com/articles/shinyapps.html#application-instances)_. In practice it means 512MB RAM at your disposal. Few orders of magnitude more than [the Apollo Guidance Computer](http://en.wikipedia.org/wiki/Apollo_Guidance_Computer) but most likely less than your smartphone. Use it wisely.
 - Changes in a file system [won't persist beyond a single session](http://shiny.rstudio.com/articles/share-data.html).
 - Considering ShinyApps architecture it is best to assume worst-case scenario, in which every user has to go through a whole starting process (including operations executed outside `shinyServer`) from scratch.
