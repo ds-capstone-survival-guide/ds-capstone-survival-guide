@@ -73,7 +73,7 @@
 
 ## Uploading to Rpubs issues
 
-People may get an SSL error when uploading to RPubs. This could be either needing to update software or your need to make an .RProfile file. Let's start with the update
+People may get an SSL error when uploading to RPubs. This could be either needing to update software or your need configure your machine to use SSL uploads (normally through making an .RProfile file). Let's start with the update
 
 -SSL error due to needing updates
 
