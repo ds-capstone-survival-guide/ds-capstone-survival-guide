@@ -8,7 +8,7 @@
 - [ShinyApps limits](#shinyapps-limits)
 - [Time management and deadlines](#time-management-and-deadlines)
 - [Slow or unreliable internet connections](#slow-or-unreliable-internet-connections)
-- [Uploading to Rpubs issues](#uploading-to-Rpubs-issues)
+- [Uploading to Rpubs issues](#uploading-to-rpubs-issues)
 - [Useful resources](#useful-resources)
 - [General remarks](#general-remarks)
 
