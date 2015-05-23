@@ -8,6 +8,7 @@
 - [ShinyApps limits](#shinyapps-limits)
 - [Time management and deadlines](#time-management-and-deadlines)
 - [Slow or unreliable internet connections](#slow-or-unreliable-internet-connections)
+- [Uploading to Rpubs issues](#uploading-to-rpubs-issues)
 - [Useful resources](#useful-resources)
 - [General remarks](#general-remarks)
 
@@ -69,6 +70,39 @@
 
 - If you have a slow internet connection redeploying your app can be a time-consuming process. Since your data most likely won't change as often as your code you can create a data only package, keep it on GitHub and let Shinyapps [handle dependencies](http://shiny.rstudio.com/articles/shinyapps.html#package-dependencies). If you're not sure how to do it take a look at `devtools::create`, `devtools::use_data` and `devtools::install_github`. Be sure to check [working with large files](https://help.github.com/articles/working-with-large-files/) guide.
 - Seeing cryptic `Error in headers[["Content-Type"]] : subscript out of bounds` during deployment may suggest some kind of connection problem. If you're sure there is nothing wrong with your app please try again using different network.
+
+## Uploading to Rpubs issues
+
+People may get an SSL error when uploading to RPubs. This could be either needing to update software or your need configure your machine to use SSL uploads (normally through making an .RProfile file). Let's start with the update
+
+-SSL error due to needing updates
+
+A lot of SSL things have needed updating over the past year. If you are getting a SSL error when uploading to RPubs the first step is:
+
+* Update RStudio to the latest version
+* In the new version of RStudio, update the __bitops__ and __RCurl__ packages (the markdown package should update when you start using .Rmd documents, but if you are following an unusual path you may need to update the markdown package). Remember, the safe way to update is to unload the package (which you can do by taking the tick out of the box beside the package in the packages tab) then reinstall.
+* in the new version, with bitops and RCurl loaded, try knitting and publishing to RPubs.
+
+If still no luck, then (particularly if using Windows) you will need to use the command options(rpubs.upload.method = "internal") to have Internet Explorer handle the https transfer. if this works and you want to make the change permanent, put it in an .RProfie file.
+
+To create a .Rprofile file can be a bit tricky as normally suffix files starting with a . are invisible on most computer systems. I suggest using RStudio, with the startup directory set to the folder with the .rmd file in it (Technically, R uses a multistage process of reading in settings and the help for Startup explains the other possible places)
+
+* Use the File menu to make a New File -\> Text File
+* Put in **options(rpubs.upload.method = "internal")** and no other text at all
+* Use the Save command and save it with the name **.RProfile**
+* Quit RStudio, restart RStudio, make sure your startup directory is set to the folder, then try to publish again. For other places the command could go see ?Startup
+
+You can do the equivalent in Windows using the console (hat tip to Iman Tang for this tip) without actually creating the .Rprofile file.
+
+```
+install packages("markdown")  
+library(markdown)  
+rpubsUpload(title, htmlFile, id = NULL, properties = list(), method = getOption("rpubs.upload.method", "internal"))
+```
+
+_Please note that the last part is also ("rpubs.upload.method", "internal") as others have mentioned._
+
+_This "rpubsUpload" function returns a "continueURL". A browser can then be used to open this "continueURL" and finish up the publishing in RPubs. For details, please type "Upload an HTML file to RPubs" in the help section of Rstudio._
 
 ## General remarks
 - Be civil and try to have fun.

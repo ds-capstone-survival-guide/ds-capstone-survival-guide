@@ -2,3 +2,4 @@
 - [@LaurentFranckx](https://github.com/LaurentFranckx)
 - [@tboomer](https://github.com/tboomer)
 - [@zero323](https://github.com/zero323)
+- [@thoughtfulbloke](https://github.com/thoughtfulbloke)
