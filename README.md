@@ -65,8 +65,7 @@
 
 - Don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
 - Grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town.
-- Again, get started as early as possible. Unlike other previous courses in Data Science Specialization, Capstone is much more open-ended which requires more time to think, survey, trial and error (and that's one of the most valuable parts of this project, IMHO). Even if you did pretty well on other 9 courses, it's still quite possible that you don't have a clue in the beginning.
-- In addition to the final Shiny app, and a milestone report writeup in the mid-term, there are two quizzes about text prediction due earlier, don't forget to finish them on time. It would help you strengthen the initial idea and understand the project better. It might be tricky to get a full score, but it doesn't really matter.       
+- Again, get started as early as possible. Unlike other previous courses in Data Science Specialization, Capstone is much more open-ended which requires more time to think, survey, trial and error. Even if you did pretty well on other 9 courses, it's still possible that you don't have a clue in the beginning.
 
 ## Slow or unreliable internet connections
 
