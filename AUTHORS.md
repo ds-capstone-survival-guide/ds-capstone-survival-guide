@@ -3,3 +3,4 @@
 - [@tboomer](https://github.com/tboomer)
 - [@zero323](https://github.com/zero323)
 - [@thoughtfulbloke](https://github.com/thoughtfulbloke)
+- [@paullo0106](https://github.com/paullo0106)

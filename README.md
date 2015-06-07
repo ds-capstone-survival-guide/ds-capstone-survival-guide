@@ -65,6 +65,7 @@
 
 - Don't wait until the last moment to deploy your projects. If anything can go wrong, it will happened a day before deadline. Just ask anyone who finished this specialization.
 - Grading weeks tend to be quite intensive and you have to be prepared to deal with some unexpected issues. Long story short don't leave town.
+- Again, get started as early as possible. Unlike other previous courses in Data Science Specialization, Capstone is much more open-ended which requires more time to think, survey, trial and error. Even if you did pretty well on other 9 courses, it's still possible that you don't have a clue in the beginning.
 
 ## Slow or unreliable internet connections
 
@@ -110,6 +111,7 @@ _This "rpubsUpload" function returns a "continueURL". A browser can then be used
 - Using typical NLP pipelines (tokenization -> punctuation removal -> stop words removal -> stemming) is not the best approach. It will bite you sooner or later.
 - Carefully review the Grading Rubrics.
 - Document and explain your design choices and never assume that the reviewers are familiar with some proprietary product _x_.
+- Don't hesitate to ask questions or look for feedback in the discussion forum of the course, you will find how helpful your classmates and community TA are.
 
 ## Useful resources
 
