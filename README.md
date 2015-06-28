@@ -126,6 +126,7 @@ _This "rpubsUpload" function returns a "continueURL". A browser can then be used
  * [Natural Language Processing, Columbia University](https://www.coursera.org/course/nlangp).
  * [The Analytics Edge,  MITx](https://www.edx.org/course/analytics-edge-mitx-15-071x-0) - Unit 5: Text Analytics in particular.
  * [Text Retrieval and Search Engines, University of Illinois at Urbana-Champaign](https://www.coursera.org/course/textretrieval).
+ * [Text Mining and Analytics, University of Illinois at Urbana-Champaign](https://www.coursera.org/course/textanalytics).
  * [Introduction to Linux, LinuxFoundationX](https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-2).
 - Other
  * [awesome-R](https://github.com/qinwf/awesome-R) - a curated list of awesome R frameworks, packages and software.
