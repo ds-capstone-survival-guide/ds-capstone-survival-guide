@@ -75,6 +75,8 @@
 
 ## Uploading to Rpubs issues
 
+Verify that you can upload to Rpubs well before the submission deadline. You never know when a version change or a change in your local environment might create problems even if you have submitted to Rpubs in the past. It's frustrating having completed an assignment only to hit a technical glitch on the due date. 
+
 People may get an SSL error when uploading to RPubs. This could be either needing to update software or your need configure your machine to use SSL uploads (normally through making an .RProfile file). Let's start with the update
 
 -SSL error due to needing updates
